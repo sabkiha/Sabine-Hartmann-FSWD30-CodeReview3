@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="style2.css">
+	<meta charset="UTF-8">
+	<title>Car Insurance | Quote</title>
+</head>
+<body>
+<header>
+		<!-- Page Title!-->
+
+		<p>Insurance <span id="company">Company</span></p>
+
+	</header>
+
+	<main> <!--Main Section of the page | Form -->
+		<div class="form">
+			<form action="script2.js">
+				<table>
+					<tr>
+						<td>Your Name:</td>
+						<td><input type="text" id="yourName" name="yourName" value="John Doe"></td>
+					</tr>
+					<tr>
+						<td>Age:</td>
+						<td><input type="text" id="age" name="age" value="20"></td>
+					</tr>
+					<tr>
+						<td>Country:</td>
+						<td><select name="country" id="country">
+						    <option value="Germany">Germany</option>
+						    <option value="Austria">Austria</option>
+						    <option value="Italy">Italy</option>
+					 	</select></td>
+					</tr>
+					<tr>
+						<td>Horsepower:</td>
+						<td><input type="text" id="horsepower" name="horsepower" value="150"></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input id="button" type="button" onclick="calculateInsurance(150, 20)" value="calculate"></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</main>
+	<footer>
+		<div class="calculation">
+			<p id="calcHere">Please click to calculate your insurance quote.</p>
+		</div>
+	</footer>
+
+
+	<script type="text/javascript" src="script2.js"></script>
+</body>
+</html>

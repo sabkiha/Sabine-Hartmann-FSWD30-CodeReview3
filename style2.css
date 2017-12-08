@@ -1,0 +1,88 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+header {
+	display: flex;
+	background-color: #F4F4F4;
+	height: 85px;
+	color: #E88A53;
+	font-size: 30px;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+	header #company {
+		font-weight: bold;
+		}
+main {
+	background-color: #406A80;
+	height: 280px;
+	top: 85px;
+	display: flex;
+	justify-content: center;
+}
+	.form{
+		display: flex;
+		justify-content: center;
+		color: #F4F4F4;
+		font-size: 20px;
+		padding: 10px;
+		font-weight: bold;
+	}
+		.form table tr td input {
+			width: 100%;
+			padding: 5px;
+			margin: 2px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+		.form table tr td select {
+			width: 100%;
+			padding: 5px;
+			margin: 2px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+		.form table tr td {
+			padding: 7px;
+		}
+		#button {
+			color: #2D4452;
+		    background-color: #E3E3E3;
+		    height: 40px;
+		    border-radius: 10px;
+		    font-weight: bold;
+		    font-size: 25px;
+		    border-style: solid;
+		    box-shadow: 1px 1px 1px 1px;
+		    padding: 5px;
+		}
+		
+footer {
+	display: flex;
+	background-color: #F4F4F4;
+	height: 200px;
+	justify-content: center;
+	bottom: 0;
+	padding: 20px;
+	color: #4A4E51;
+	font-weight: bold;
+	font-size: 18px;
+	margin-left: 100px;
+	margin-right:100px;
+}
+
+
+
+
+
+
+
+
+
+

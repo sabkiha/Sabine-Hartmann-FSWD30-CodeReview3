@@ -1,0 +1,83 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+header {
+	display: flex;
+	background-color: #F4F4F4;
+	height: 85px;
+	color: #E88A53;
+	font-size: 30px;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+	header #company {
+		font-weight: bold;
+		}
+main {
+	background-color: #38A18C;
+	height: 550px;
+	top: 65px;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	display: flex;
+	justify-content: center;
+	color: #2D4452;
+	padding: 20px;
+	font-size: 45px;
+	margin: 0;
+}
+	.structure{
+		display: flex;
+		justify-content: space-between;
+		padding: 20px;
+	}
+	.caption{
+		display: flex;
+		flex-direction: column;
+		font-size: 25px;
+		color: #F3F3F3;
+		font-weight: bold;
+		padding: 10px;
+		text-align: center;
+	}
+
+	.button{
+		display: flex;
+		justify-content: center;
+
+	}
+	img {
+		height: 250px;
+		width: 250px;
+	}
+		.button input {
+		    color: #2D4452;
+		    background-color: #E3E3E3;
+		    height: 60px;
+		    border-radius: 10px;
+		    font-weight: bold;
+		    font-size: 40px;
+		    border-style: solid;
+		    box-shadow: 1px 1px 1px 1px;
+		    padding: 5px;
+		}
+footer {
+	display: flex;
+	background-color: #F4F4F4;
+	height: 65px;
+	justify-content: center;
+	top: 565px;
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
